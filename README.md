@@ -42,4 +42,10 @@ O modelo foi treinado com um conjunto de dados de aproximadamente 300 registros,
   
 A melhor performance foi alcançada com o algoritmo SVM após otimização de hiperparâmetros.
 
-## Como o modelo foi treinado
+## Autores
+  
+  Tiago Terra
+
+## Apoio e agradecimentos
+
+   Corpo docente e estudantil do curso de Especialização em Engenharia de Software PUC-Rio 2024; 
