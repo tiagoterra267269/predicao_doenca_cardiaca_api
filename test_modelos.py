@@ -1,7 +1,6 @@
 from model import Modelo
 from machinelearning.modelo.carregador import Carregador
 from machinelearning.modelo.avaliador import Avaliador
-from machinelearning.modelo.pipeline import Pipeline
 import pandas as pd
 import joblib
 
