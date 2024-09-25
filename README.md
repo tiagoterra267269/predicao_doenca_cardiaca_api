@@ -26,16 +26,19 @@ Prever a chance de um paciente apresentar uma doença cardíaca, fornecendo info
 ## Como o modelo foi treinado
 O modelo foi treinado com um conjunto de dados de aproximadamente 300 registros, com as seguintes features:
 
-. idade (age)
-. sexo (sex)
-. tipo de dor no peito (cp)
-. pressão arterial em repouso (trestbps)
-. colesterol (col)
-. açúcar no sangue (fbs)
-. eletrocardiograma em repouso (restecg)
-. frequência cardíaca máxima (thalach)
-. angina induzida por exercício (exang)
-. depressão do segmento ST (oldpeak)
-
+- **idade** (age)
+- **sexo** (sex)
+- **tipo de dor no peito** (cp)
+- **pressão arterial em repouso** (trestbps)
+- **colesterol** (col)
+- **açúcar no sangue** (fbs)
+- **eletrocardiograma em repouso** (restecg)
+- **frequência cardíaca máxima** (thalach)
+- **angina induzida por exercício** (exang)
+- **depressão do segmento ST** (oldpeak)
+- **inclinação do segmento ST** (slope)
+- **número de vasos principais** (ca)
+- **talassemia (thal)**
+- 
 A melhor performance foi alcançada com o algoritmo SVM após otimização de hiperparâmetros.
 
