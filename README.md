@@ -23,6 +23,16 @@ Prever a chance de um paciente apresentar uma doença cardíaca, fornecendo info
 
 4. Você pode acessar o endpoint /predict por postman ou curl, e verificar via swagger.
 
+## Testes
+
+Caso queira testar um novo modelo, existe uma classe de testes que valida a acurácia do modelo. Basta executar o comando abaixo:
+
+pytest -v test_modelos.py
+
+obs: caso haja depreciação ao rodar o teste, rode o comando abaixo para atualizar as dependências:
+
+pip install --upgrade scikit-learn
+
 ## Como o modelo foi treinado
 O modelo foi treinado com um conjunto de dados de aproximadamente 300 registros, com as seguintes features:
 
