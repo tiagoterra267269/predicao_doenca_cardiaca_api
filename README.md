@@ -39,6 +39,7 @@ O modelo foi treinado com um conjunto de dados de aproximadamente 300 registros,
 - **inclinação do segmento ST** (slope)
 - **número de vasos principais** (ca)
 - **talassemia (thal)**
-- 
+  
 A melhor performance foi alcançada com o algoritmo SVM após otimização de hiperparâmetros.
 
+## Como o modelo foi treinado
